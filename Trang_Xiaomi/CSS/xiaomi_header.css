@@ -1,0 +1,141 @@
+.navigation-bar {
+    width: 100%;
+    background-color: #1c1b1b;
+    position: fixed;
+    padding: 10px 20px;
+    top: 0px;
+    left: -10px;
+    /* ta để thanh đen sat vs lề trên và lề trái */
+}
+
+
+.menu a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.menu a:hover {
+    font-size: 16px;
+    color: rgb(244, 156, 156);
+    padding-left: 30px;
+}
+
+.menu {
+    display: inline-block;
+    padding-right: 5vw;
+    float: right;
+}
+
+/* SEARCH-BAR */
+.search-bar {
+
+    margin-top: 40px;
+}
+
+.search-bar>h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'forte', sans-serif;
+    color: rgb(73, 35, 121);
+}
+
+.glass {
+    vertical-align: middle;
+}
+
+.glass>input {
+    vertical-align: middle;
+    border: none;
+    padding: 17px 140px;
+    box-shadow: 1px 1px 5px 1.5px rgb(209, 206, 206);
+    border-radius: 20px;
+    margin-left: 100px;
+
+}
+
+.glass>button {
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    position: relative;
+    left: 200px;
+}
+
+.glass {
+    display: inline-block;
+}
+
+.button * {
+    border: none;
+    font-size: 13px;
+    border-radius: 10px;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+
+.button {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.button *:hover {
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+.button>.dangnhap {
+    color: rgb(19, 13, 13);
+    font-weight: bold;
+
+    background: rgb(34, 193, 195);
+    background: linear-gradient(21deg, rgba(34, 193, 195, 1) 0%, rgba(55, 126, 176, 1) 39%, rgba(77, 90, 242, 1) 88%, rgba(45, 46, 253, 1) 100%);
+}
+
+.button>.giohang {
+    color: rgb(14, 11, 11);
+    font-weight: bold;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(32deg, rgba(131, 58, 180, 1) 0%, rgba(250, 40, 40, 0.7681197478991597) 32%, rgba(251, 57, 151, 0.6560749299719888) 70%, rgba(252, 64, 201, 1) 87%, rgba(252, 93, 211, 1) 96%, rgba(249, 252, 106, 1) 100%, rgba(252, 176, 69, 1) 100%);
+}
+
+/* TỪ KHÓA TÌM KIẾM: */
+.tukhoa {
+    width: 100%;
+    display: block;
+    margin-left: -10px;
+    margin-top: 15px;
+    background-color: #1c1b1b;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.tukhoa a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.tukhoa a:hover {
+    background-color: #1c1b1b;
+    color: rgb(244, 156, 156);
+    font-size: 20px;
+    left: -10px;
+}
+
+/* FOOTER */
+footer {
+    color: white;
+    background-color: #1c1a1a;
+    padding: 2px;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    bottom: 0;
+
+}
