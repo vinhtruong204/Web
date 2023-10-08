@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NHÓM 6 - Thế giới điện thoại</title>
+    <link rel="shortcut icon" href="img/smartphone.png" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tintuc.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+    <script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["Samsung", "iPhone", "Huawei", "Oppo", "Mobi"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="tintuc.html">Tin Tức</a></li>
+            <li> <a href="gioithieu.html">Giới thiệu</a></li>
+            <li> <a href="lienhe.html">Liên hệ</a></li>
+            <li><a href="index.html">Trang chủ</a></li>
+        </ul>
+    </nav>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="body-tintuc">
+            <div class="tintuc-info">
+                <a href="https://vnexpress.net/apple-tung-dinh-mua-bing-de-dau-voi-google-4661439.html" target="_blank">
+                    <img src="img/tintuc.png">
+                    <h2>Apple từng định mua Bing để đấu với google</h2>
+                </a>
+                <br />
+                <h5>Doanh nghiệp &emsp;3 giờ</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://vnexpress.net/iphone-15-pro-khong-giam-hieu-nang-sau-ban-va-loi-qua-nhiet-4661447.html"
+                    target="_blank">
+                    <img src="img/tintuc1.jpg">
+                    <h2>Iphone 15 Pro không giảm hiệu năng sau bản vá lỗi quá nhiệt</h2>
+                </a>
+                <br />
+                <h5>vnexpress &emsp; 6 giờ</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://vov.vn/cong-nghe/doanh-so-iphone-xs-va-iphone-xr-tham-hai-apple-san-xuat-lai-iphone-x-843717.vov"
+                    target="_blank">
+                    <img src="img/tintuc3.webp">
+                    <h2>Doanh số iPhone XS và iPhone XR thảm hại, Apple sản xuất lại iPhone X</h2>
+                </a>
+                <br />
+                <h5>VOV &emsp; 6 giờ</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="http://vietq.vn/chiec-dien-thoai-thong-minh-nay-cua-lg-se-co-toi-16-camera-d151674.html"
+                    target="_blank">
+                    <img src="img/tintuc/tintuc4.png">
+                    <h2>Chiếc điện thoại thông minh này của LG sẽ có tới 16 Camera</h2>
+                </a>
+                <br />
+                <h5>VietQ &emsp; 13 giờ</h5>
+            </div>
+            <div class="tintuc-info" style="border-bottom: 0;">
+                <a href="https://news.zing.vn/nhung-tieu-chi-ban-khong-nen-bo-qua-khi-mua-smartphone-2018-post894509.html"
+                    target="_blank">
+                    <img src="img/tintuc/tintuc5.png" height="148px" width="224px;">
+                    <h2>Iphone 15 </h2>
+                </a>
+                <br />
+                <h5>Zing &emsp; 9 giờ</h5>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+    <footer>
+        <p>phone store - All rights reserved &reg; 2023 - Designed by NHÓM 6</p>
+    </footer>
+</body>
+
+</html>
