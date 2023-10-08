@@ -1,0 +1,80 @@
+.body-tintuc {
+	margin: 70px 50px 50px 90px;
+	width: 80%;
+
+
+}
+
+.tintuc-info {
+	height: 170px;
+	border-bottom: 1px solid #FCF;
+	margin-top: 5px;
+
+}
+
+.tintuc-info img {
+	border: 1px solid gray;
+	float: left;
+	margin-right: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	height: 148px;
+	width: 224px;
+}
+
+.tintuc-info a:hover {
+	color: #666;
+}
+
+.tintuc-info h5 {
+	font-weight: 100;
+	font-style: italic;
+	color: gray;
+}
+
+
+footer {
+	color: white;
+	background-color: #1c1a1a;
+	padding: 2px;
+	display: block;
+	text-align: center;
+
+	bottom: 0;
+
+}
+
+/* MENU */
+.menu {
+	position: fixed;
+	inset: 0 0 auto 0;
+}
+
+.menu ul {
+	list-style-type: none;
+	background-color: rgb(57, 57, 57);
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+
+}
+
+.menu a {
+	/* tac dong vao các thẻ a trong class "menu" */
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	text-align: center;
+
+}
+
+.menu a:hover {
+	color: rgb(247, 65, 65);
+	background-color: #221818;
+}
+
+.menu li {
+	float: right;
+
+}

@@ -1,0 +1,142 @@
+.body-lienhe {
+    margin: 0 auto;
+
+    width: 100%;
+    background-color: #eeeaea;
+
+}
+
+html {
+    background-color: #eeeaea;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    width: auto;
+    height: auto;
+    overflow: scroll;
+}
+
+.lienhe-header {
+    margin-top: 50px;
+    height: 40px;
+    font-weight: bold;
+    line-height: 40px;
+    padding-left: 10px;
+    background: rgb(168, 235, 241);
+}
+
+.lienhe-info {
+    margin: 20px auto 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.info-left {
+    float: left;
+    width: 48%;
+}
+
+.info-right {
+    float: right;
+    width: 48%;
+}
+
+iframe {
+    border: 1px solid gray;
+}
+
+.guithongtin {
+    width: 45%;
+    float: left;
+}
+
+.thongtinnhom {
+    width: 50%;
+    float: right;
+}
+
+table {
+    margin-top: 10px;
+    height: 20px;
+}
+
+table input {
+    padding: 5px;
+}
+
+table button {
+    padding: 5px;
+    cursor: pointer;
+    background: #FFF;
+    border: 1px solid #0C9;
+}
+
+table button:hover {
+    background: #0C9;
+}
+
+.thongtinnhom table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.thongtinnhom table td,
+th {
+    border: 1px solid #0C9;
+    height: 30px;
+    padding: 3px;
+    text-align: center;
+}
+
+/* những tr chẵn sẽ có màu khác */
+.thongtinnhom tr:nth-of-type(even) {
+    background-color: #f2f2f2;
+}
+
+footer {
+    color: white;
+    background-color: #1c1a1a;
+    padding: 2px;
+    display: block;
+    text-align: center;
+
+    bottom: 0;
+
+}
+
+/* MENU */
+.menu {
+    position: fixed;
+    inset: 0 0 auto 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    background-color: rgb(57, 57, 57);
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+.menu a {
+    /* tac dong vao các thẻ a trong class "menu" */
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+
+.menu a:hover {
+    color: rgb(247, 65, 65);
+    background-color: #221818;
+}
+
+.menu li {
+    float: right;
+
+}
