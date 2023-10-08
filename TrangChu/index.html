@@ -13,38 +13,68 @@
         crossorigin="anonymous">
     <!-- link đến các file css -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <header>
-        <div class="navigation-bar">
-            <nav class="menu">
-                <a href="index.html"><i class="fa-solid fa-house"></i>Trang chủ</a>
-                <a href=""><i class="fa-solid fa-newspaper"></i>Tin Tức</a>
-                <a href=""><i class="fa-solid fa-user-group"></i>Giới thiệu</a>
-                <a href=""><i class="fa-solid fa-phone"></i>Liên hệ</a>
 
-            </nav>
+        <nav class="menu">
+            <ul>
+                <li><a href="tintuc.html"><i class="fa-solid fa-newspaper"></i>Tin Tức</a></li>
+                <li> <a href="gioithieu.html"><i class="fa-solid fa-user-group"></i>Giới thiệu</a></li>
+                <li> <a href="lienhe.html"><i class="fa-solid fa-phone"></i>Liên hệ</a></li>
+                <li><a href=""><i class="fa-solid fa-house"></i>Trang chủ</a></li>
+            </ul>
+        </nav>
+
         </div>
         <div class="search-bar">
-            <img src="img/smartphone.png" alt="" height="50px">
-            <h1>SMARTPHONE</h1>
-            <div class="glass">
-                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                <input type="text" placeholder="nhập từ khóa tìm kiếm">
-            </div>
-            <div class="button">
-                <button class="dangnhap">Đăng nhập</button>
-                <button class="giohang">Giỏ hàng</button>
-            </div>
-            <div class="tukhoa">
-                <p style="display: inline-block;">Từ khóa:</p>
-                <a href="">Điện thoại</a>
-                <a href="">Máy tính bảng</a>
-                <a href="../TrangIphone/src/TrangIphone.html">Iphone</a>
-                <a href="../Trang_Xiaomi/HTML/xiaomi.html">Xiaomi</a>
-            </div>
-        </div>
+            <ul>
+
+
+
+                <li>
+                    <div class="button">
+                        <button class="dangnhap">Đăng nhập</button>
+                        <button class="giohang">Giỏ hàng</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="glass">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <input type="text" placeholder="nhập từ khóa tìm kiếm">
+                    </div>
+                </li>
+                <li>
+                    <h1>SMARTPHONE</h1>
+                </li>
+                <li><img src="img/smartphone.png" alt="" height="50px"></li>
+
+            </ul>
+
+            <nav class="tukhoa">
+
+                <ul>
+                    <li>
+                        <p>Từ khóa:</p>
+                    </li>
+                    <li><a href="">Xiaomi</a></li>
+                    <li><a href="">Iphone</a></li>
+                    <li><a href="">Samsung</a></li>
+                    <li><a href="">Ipad</a></li>
+                </ul>
+            </nav>
+
 
     </header>
     <div class="image-title">
