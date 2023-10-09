@@ -1,7 +1,6 @@
 body {
     background-color: #ddd7d7;
     font-family: 'roboto', sans-serif;
-
 }
 
 /* MENU */
@@ -16,7 +15,6 @@ body {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-
 }
 
 .menu a {
@@ -36,7 +34,6 @@ body {
 
 .menu li {
     float: right;
-
 }
 
 /* SEARCH-BAR */
@@ -101,7 +98,7 @@ body {
 .button>.dangnhap {
     color: rgb(19, 13, 13);
     font-weight: bold;
-
+    cursor: pointer;
     background: rgb(34, 193, 195);
     background: linear-gradient(21deg, rgba(34, 193, 195, 1) 0%, rgba(55, 126, 176, 1) 39%, rgba(77, 90, 242, 1) 88%, rgba(45, 46, 253, 1) 100%);
 }
@@ -109,6 +106,7 @@ body {
 .button>.giohang {
     color: rgb(14, 11, 11);
     font-weight: bold;
+    cursor: pointer;
     background: rgb(131, 58, 180);
     background: linear-gradient(32deg, rgba(131, 58, 180, 1) 0%, rgba(250, 40, 40, 0.7681197478991597) 32%, rgba(251, 57, 151, 0.6560749299719888) 70%, rgba(252, 64, 201, 1) 87%, rgba(252, 93, 211, 1) 96%, rgba(249, 252, 106, 1) 100%, rgba(252, 176, 69, 1) 100%);
 }

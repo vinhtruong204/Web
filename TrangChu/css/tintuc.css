@@ -32,14 +32,12 @@
 	color: gray;
 }
 
-
 footer {
 	color: white;
 	background-color: #1c1a1a;
 	padding: 2px;
 	display: block;
 	text-align: center;
-
 	bottom: 0;
 
 }
@@ -56,7 +54,6 @@ footer {
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden;
-
 }
 
 .menu a {
@@ -76,5 +73,4 @@ footer {
 
 .menu li {
 	float: right;
-
 }

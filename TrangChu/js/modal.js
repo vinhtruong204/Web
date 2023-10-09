@@ -3,7 +3,6 @@ var modal = document.querySelector('.modal')
 var iconClose = document.querySelector('.modal-header i')
 
 function toggleModal(e) {
-    console.log(e.target)
     modal.classList.toggle('hide')
 }
 

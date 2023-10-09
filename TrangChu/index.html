@@ -15,15 +15,11 @@
 
     <!-- link đến các file css -->
     <link rel="stylesheet" href="css/main.css">
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/dangnhap.css">
+    <link rel="stylesheet" href="css/gioithieu.css">
+    <link rel="stylesheet" href="css/lienhe.css">
+    <link rel="stylesheet" href="css/tintuc.css">
+    <link rel="stylesheet" href="css/trangchu.css">
 </head>
 
 <body>
@@ -37,30 +33,11 @@
             </ul>
         </nav>
 
-        </div>
         <div class="search-bar">
             <ul>
-
-
-
                 <li>
                     <div class="button">
                         <button class="dangnhap">Đăng nhập</button>
-                        <div class="modal hide">
-                            <div class="modal-inner">
-                                <div class="modal-header">
-                                    <p>Đăng nhập</p>
-                                    <i class="fa-solid fa-xmark"></i>
-                                </div>
-                                <div class="modal-body">
-                                    <h3>Tiêu đề phần thân</h3>
-                                    <p>Các trường nhập dữ liệu</p>
-                                </div>
-                                <div class="modal-footer">
-                                    <h3>Các nút đăng nhập bằng google, fb v.v..</h3>
-                                </div>
-                            </div>
-                        </div>
                         <button class="giohang">Giỏ hàng</button>
                     </div>
                 </li>
@@ -80,24 +57,20 @@
             <nav class="tukhoa">
 
                 <ul>
-                    <li>
-                        <p>Từ khóa:</p>
-                    </li>
                     <li><a href="../Trang_Xiaomi/HTML/xiaomi.html">Xiaomi</a></li>
                     <li><a href="../TrangIphone//src/TrangIphone.html">Iphone</a></li>
                     <li><a href="">Samsung</a></li>
                     <li><a href="">Ipad</a></li>
                 </ul>
             </nav>
-
-
+        </div>
     </header>
+
     <div class="image-title">
         <img class="img" src="img/meizuS_slide_3.jpg" alt="" width="755px" height="300px">
         <div class="image-title1">
             <img src="img/gift_applewatch1.gif" alt="" width="369.99px" height="149.99px">
             <img width="369.99px" src="img/iphone-15-pro-max-co-may-mau-didongviet-1.jpg" alt="" height="139.99px">
-
         </div>
     </div>
     <p class="p">TIN CÔNG NGHỆ </p>
@@ -113,14 +86,43 @@
 
     </div>
     <p class="p">SẢN PHẨM HOT </p>
-    <div>
 
+    <div class="modal hide">
+        <div class="modal-inner">
+            <div class="modal-header">
+                <b>
+                    <p>Đăng nhập</p>
+                </b>
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="modal-body">
+                <form action="#">
+                    <fieldset>
+                        <label for="user-name">Tên đăng nhập <br>
+                            <input type="text" id="user-name" name="user-name" placeholder="Email/Số điện thoại/Tên đăng nhập">
+                        </label>
+                        <br>
+                        <label for="password">Mật khẩu <br>
+                            <input type="text" id="password" name="password" placeholder="Mật khẩu" required>
+                        </label>
+                    </fieldset>
+                    <input type="submit" value="Đăng nhập">
+                </form>
+                <a href="#">Quên mật khẩu?</a>
+            </div>
+            <div class="modal-footer">
+                <p>Hoặc đăng nhập với</p>
+                <a href="https://www.facebook.com">
+                    <i class="fa-brands fa-facebook"></i>
+                    Facebook
+                </a>
+                <a href="https://www.google.com">
+                    <i class="fa-brands fa-google"></i> 
+                    Google
+                </a>
+            </div>
+        </div>
     </div>
-
-
-
-
-
     <footer>
         <p>Phone store - All rights reserved &reg; 2023 - Designed by NHÓM 6</p>
     </footer>
