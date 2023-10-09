@@ -8,12 +8,13 @@
 
     <title>NHÓM 6:Bán điện thoại</title>
     <link rel="shortcut icon" href="img/smartphone.png" />
+
     <!-- Load font awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         crossorigin="anonymous">
+
     <!-- link đến các file css -->
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/footer.css">
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -27,7 +28,6 @@
 
 <body>
     <header>
-
         <nav class="menu">
             <ul>
                 <li><a href="tintuc.html"><i class="fa-solid fa-newspaper"></i>Tin Tức</a></li>
@@ -46,6 +46,21 @@
                 <li>
                     <div class="button">
                         <button class="dangnhap">Đăng nhập</button>
+                        <div class="modal hide">
+                            <div class="modal-inner">
+                                <div class="modal-header">
+                                    <p>Đăng nhập</p>
+                                    <i class="fa-solid fa-xmark"></i>
+                                </div>
+                                <div class="modal-body">
+                                    <h3>Tiêu đề phần thân</h3>
+                                    <p>Các trường nhập dữ liệu</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <h3>Các nút đăng nhập bằng google, fb v.v..</h3>
+                                </div>
+                            </div>
+                        </div>
                         <button class="giohang">Giỏ hàng</button>
                     </div>
                 </li>
@@ -111,6 +126,6 @@
     </footer>
 </body>
 <!-- Link file javascript-->
-<script src="js/script.js"></script>
+<script src="js/modal.js"></script>
 
 </html>
