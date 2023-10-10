@@ -1,8 +1,9 @@
 var openLogin = document.querySelector('.dangnhap')
-var modal = document.querySelector('.modal')
+var modal = document.querySelector('.ving')
 var iconClose = document.querySelector('.modal-header i')
 
 function toggleModal(e) {
+    console.log(e.target)
     modal.classList.toggle('hide')
 }
 
