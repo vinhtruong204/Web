@@ -15,14 +15,14 @@
 
 .modal-inner {
     width: 30%;
-    height: 77%;
+    height: 78%;
     position: relative;
     background: white;
-    top: 15%;
+    top: 12%;
     margin: auto;
     border-radius: 7px;
     padding: 10px;
-    min-width: 330px;
+    min-width: 350px;
     animation: showForm 0.3s linear;
 }
 
@@ -40,13 +40,11 @@
 .modal-header i {
     cursor: pointer;
     font-size: 30px;
-
 }
 
 .modal-header p {
     color: orangered;
-    font-size: 40px;
-    letter-spacing: 1px;
+    font-size: 25px;
 }
 
 fieldset {
@@ -75,14 +73,18 @@ input[type="submit"] {
     text-align: center;
     margin-top: 10px;
     cursor: pointer;
+    color: rgba(1, 0, 0, 0.8);
 }
 
 .modal-footer {
     margin: auto;
     padding-top: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .modal-footer>p {
+    margin-top: 0px;
     text-align: center;
     font-size: 17px;
 }
