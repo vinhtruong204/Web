@@ -57,15 +57,13 @@
 
             <nav class="tukhoa">
                 <ul>
-                    <li><a href="../Trang_Xiaomi/HTML/xiaomi.html">Xiaomi</a></li>
+                    <li><a href="../Trang_Xiaomi/xiaomi.html">Xiaomi</a></li>
                     <li><a href="../TrangIphone/src/TrangIphone.html">Iphone</a></li>
                     <li><a href="">Samsung</a></li>
                     <li><a href="">Ipad</a></li>
                 </ul>
             </nav>
         </div>
-
-
     </header>
     <!-- MENU ĐỘNG -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -121,7 +119,7 @@
         <p>Phone store - All rights reserved &reg; 2023 - Designed by NHÓM 6</p>
     </footer>
 
-    <div class="ving hide">
+    <div class="ving hide" data-dismiss="modal">
         <div class="modal-inner">
             <div class="modal-header">
                 <b>
@@ -141,10 +139,10 @@
                             <input type="password" id="password" name="password" placeholder="Mật khẩu" required>
                         </label>
                     </fieldset>
-                    <input type="submit" value="Đăng nhập">
+                    <input class="btn-dangnhap" type="submit" value="Đăng nhập">
                 </form>
                 <a href="#">Quên mật khẩu?</a>
-                <p>Bạn chưa có tài khoản? <a class="modal-dangky" href="#">Đăng ký</a>.</p>
+                <p>Bạn chưa có tài khoản? <a id="modal-dangky" href="#">Đăng ký</a>.</p>
             </div>
             <div class="modal-footer">
                 <p>Hoặc đăng nhập với</p>
@@ -159,14 +157,14 @@
             </div>
         </div>
     </div>
-    
-    <div class="dangky hide">
+
+    <div id="dangky" class="dangky hide" data-dismiss="modal">
         <div class="modal-inner">
             <div class="modal-header">
                 <b>
                     <p>Đăng Ký</p>
                 </b>
-                <i class="fa-solid fa-xmark"></i>
+                <i class="fa-solid fa-xmark" id="closeSignUp"></i>
             </div>
             <div class="modal-body">
                 <div class="form1">
@@ -193,15 +191,14 @@
                         <input type="password" placeholder="Xác nhận mật khẩu của bạn" required>
                     </label>
                 </div>
-                <input type="submit" value="Đăng ký">
+                <input class="btn-dangky" type="submit" value="Đăng ký">
             </div>
         </div>
     </div>
 </body>
 
 <!-- Link file javascript-->
-<script src="js/dangnhap.js"></script>
-<script src="js/dangky.js"></script>
+<script src="js/modal.js"></script>
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NHÓM 6 - Thế giới điện thoại</title>
+    <link rel="shortcut icon" href="img/smartphone.png" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tintuc.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+    <script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["Samsung", "iPhone", "Huawei", "Oppo", "Mobi"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="tintuc.html">Tin Tức</a></li>
+            <li> <a href="gioithieu.html">Giới thiệu</a></li>
+            <li> <a href="lienhe.html">Liên hệ</a></li>
+            <li><a href="index.html">Trang chủ</a></li>
+        </ul>
+    </nav>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="body-tintuc">
+            <div class="tintuc-info">
+                <a href="https://vnexpress.net/apple-tung-dinh-mua-bing-de-dau-voi-google-4661439.html" target="_blank">
+                    <img class="img1" src="img/tintuc.png">
+                    <h2>Apple từng định mua Bing để đấu với google</h2>
+                </a>
+                <br />
+                <h5>Doanh nghiệp &emsp;3 giờ</h5>
+            </div>
+            <div class="tintuc-info" style="border-bottom: 0;">
+                <a href="https://www.thegioididong.com/tin-tuc/ky-vong-huawei-mate-70-pro-plus-concept-1550723"
+                    target="_blank">
+                    <img class="img1" src="img/tintuc7.jpg">
+                    <h2>Huawei Mate 70 Pro+ Concept:bo cong sang trọng, snapdragon 8+gen2 mạnh mẽ</h2>
+                </a>
+                <h5>thegioididong &emsp; 9 giờ</h5>
+            </div>
+
+            <div class="tintuc-info">
+                <a href="https://vietnamnet.vn/google-ra-mat-pixel-8-pixel-8-pro-va-watch-2-tich-hop-sau-ai-2198143.html"
+                    target="_blank">
+                    <img class="img1" src="img/tintuc3.jpg">
+                    <h2>Google ra mắt Pixel 8, Pixel 8 Pro và Watch 2 tích hợp sâu AI</h2>
+                </a>
+                <br />
+                <h5>vietnamnet &emsp; 6 giờ</h5>
+            </div>
+
+            <div class="tintuc-info" style="border-bottom: 0;">
+                <a href="https://www.thegioididong.com/tin-tuc/microsoft-du-kien-se-ra-mat-chip-ai-dau-tien-vao-thang-toi-1551021"
+                    target="_blank">
+                    <img class="img1" src="img/tintuc5.jpg">
+                    <h2>Microsoft dự kiến sẽ ra mắt chip AI để giảm sự phụ thuộc vào Nvidia</h2>
+                </a>
+                <br />
+                <h5>thegioididong &emsp; 9 giờ</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://vietnamnet.vn/iphone-15-va-ai-tao-sinh-lot-top-tu-khoa-nguoi-viet-tim-kiem-nhieu-nhat-2198040.html"
+                    target="_blank">
+                    <img class="img1" src="img/tintuc2.jpg">
+                    <h2>iPhone 15 và AI tạo sinh lọt top từ khóa người Việt tìm kiếm nhiều nhất</h2>
+                </a>
+                <br />
+                <h5>vietnamnet &emsp; 13 giờ</h5>
+            </div>
+            <div class="tintuc-info" style="border-bottom: 0;">
+                <a href="https://thegioididong.com/tin-tuc/mediatek-dimensity-9300-bi-ro-ri-voi-gpu-12-nhan-manh-me-1550988"
+                    target="_blank">
+                    <img class="img1" src="img/tintuc6.jpg">
+                    <h2>MediaTek Dimensity 9300 bị rò rỉ với GPU 12 nhân, sẽ có sức mạnh cực khỏe?</h2>
+                </a>
+                <br />
+                <h5>thegioididong &emsp; 9 giờ</h5>
+            </div>
+
+            <div class="tintuc-info" style="border-bottom: 0;">
+                <a href="https://vnexpress.net/xiaomi-ha-gia-smart-band-8-de-dau-hang-xach-tay-4661796.html"
+                    target="_blank">
+                    <img class="img1" src="img/tintuc4.jpg">
+                    <h2>Xiaomi hạ giá Smart Band 8 để 'đấu' hàng xách tay</h2>
+                </a>
+                <br />
+                <h5>vnexpress &emsp; 9 giờ</h5>
+            </div>
+            <div class="tintuc-info" style="border-bottom: 0;">
+                <a href="Rò rỉ trang bị đáng chú ý nhất trên Vivo X100 Pro, hứa hẹn sẽ thay đổi cuộc chơi?"
+                    target="_blank">
+                    <img class="img1" src="img/tintuc9.jpg">
+                    <h2>Rò rỉ trang bị đáng chú ý nhất trên Vivo X100 Pro, hứa hẹn sẽ thay đổi cuộc chơi?</h2>
+                </a>
+
+                <h5>thegioididong &emsp; 9 giờ</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://vnexpress.net/iphone-15-pro-khong-giam-hieu-nang-sau-ban-va-loi-qua-nhiet-4661447.html"
+                    target="_blank">
+                    <img class="img1" src="img/tintuc1.jpg">
+                    <h2>Iphone 15 Pro không giảm hiệu năng sau bản vá lỗi quá nhiệt</h2>
+                </a>
+                <br />
+                <h5>vnexpress &emsp; 6 giờ</h5>
+            </div>
+            <div class="tintuc-info" style="border-bottom: 0;">
+                <a href="https://www.thegioididong.com/tin-tuc/dong-fe-co-dang-mua-1550294" target="_blank">
+                    <img class="img1" src="img/tintuc8.jpg">
+                    <h2>Các phiên bản Fan Edition có phải là 'món hời' mà người dùng Samsung cần đến?</h2>
+                </a>
+
+                <h5>thegioididong &emsp; 9 giờ</h5>
+            </div>
+        </div>
+
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+    <footer>
+        <p>Phone store - All rights reserved &reg; 2023 - Designed by NHÓM 6</p>
+    </footer>
+</body>
+
+</html>
