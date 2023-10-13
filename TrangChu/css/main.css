@@ -212,7 +212,7 @@ footer {
     padding: 2px;
     display: block;
     text-align: center;
-
+    clear: both;
     bottom: 0;
 
 }
@@ -292,4 +292,12 @@ footer {
 
 .image-title2 {
     margin-left: 40px;
+}
+
+/* SẢN PHẨM HOT */
+.sanphamhot {
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
 }
