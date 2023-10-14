@@ -160,11 +160,13 @@ body {
 /* FOOTER */
 footer {
     color: white;
+
     background-color: #1c1a1a;
     padding: 2px;
     display: block;
     text-align: center;
     clear: both;
+
     bottom: 0;
 
 }
@@ -252,6 +254,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 20px;
+    margin-bottom: 20px;
 }
 
 .error {
