@@ -161,7 +161,7 @@ li>h1 {
 }
 
 .button *:hover {
-    border: 2px solid black;
+    border: 0.3px solid black;
 }
 
 .button>.dangnhap {
@@ -286,7 +286,7 @@ footer {
 }
 
 .image-title2 img:hover {
-    border: 4px solid rgb(247, 171, 57);
+    border: rgb(247, 171, 57);
     animation: phatsang 0.5s infinite;
 }
 
