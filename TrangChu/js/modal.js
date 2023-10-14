@@ -25,7 +25,7 @@ function toggleDangky(e) {
 }
 
 openSignUp.addEventListener('click', function (e) {
-    toggleModal()
+    togglebt()
     toggleDangky()
 })
 closeSignUp.addEventListener('click', toggleDangky)
@@ -41,7 +41,7 @@ var btnDangKy = document.querySelector('.giohang')
 btnDangKy.addEventListener('click', toggleDangky)
 
 // Validation
-var check1 = fasle, check2 = false, check3 = false, check4 = false
+var check1 = false, check2 = false, check3 = false, check4 = false
 
 var userName = document.querySelector('#username')
 var error1 = document.querySelector('.error-message-form1')
@@ -132,7 +132,7 @@ checkPassword.addEventListener('blur', function () {
     }
 })
 
-// Su kien an nut dang ki
+// Su kien an nut dang ky
 
 var btnCheckSignUp = document.querySelector('.btn-dangky')
 
@@ -140,6 +140,21 @@ btnCheckSignUp.addEventListener('click', function () {
     if (check1 && check2 && check3 && check4) {
         alert('Đăng ký thành công!')
     } else {
-        alert('Vui lòng nhập lại thông tin đúng định dạng')
+        alert('Vui lòng nhập lại thông tin đúng định dạng được yêu cầu!')
+    }
+})
+
+// Su kien an nut dang nhap
+var btnCheckSigin = document.querySelector('.btn-dangnhap')
+
+btnCheckSigin.addEventListener('click', function () {
+    let formElement = document.querySelector('.ving')
+    let userName = formElement.querySelector('#user-name')
+    let userPassword = formElement.querySelector('#user-password')
+
+    if (userName.value && userPassword.value) {
+        alert('Đăng nhập thành công!')
+    } else {
+        alert('Vui lòng nhập đầy đủ thông tin!')
     }
 })
