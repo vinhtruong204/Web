@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .dangky {
     background: rgba(0, 0, 0, 0.6);
     position: fixed;
@@ -5,4 +11,20 @@
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: 1;
+}
+
+
+.dangky-inner {
+    width: 30%;
+    height: 78%;
+    position: relative;
+    background: white;
+    border-radius: 7px;
+    padding: 10px;
+    min-width: 350px;
+    min-height: 480px;
+    animation: showForm 0.3s linear;
+    margin: 5% auto auto auto;
+
 }

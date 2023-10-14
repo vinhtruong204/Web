@@ -52,6 +52,10 @@
 
 }
 
+* {
+	z-index: 0;
+}
+
 body {
     background-color: #ddd7d7;
     font-family: 'roboto', sans-serif;
@@ -300,4 +304,8 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 20px;
+}
+
+.error {
+    color: red;
 }
