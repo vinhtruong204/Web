@@ -245,7 +245,9 @@ footer {
 }
 
 .image-title2 {
-    margin-left: 40px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* SẢN PHẨM HOT */
