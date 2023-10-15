@@ -269,9 +269,11 @@
 
 
 
+    <footer>
+        <p>Phone store - All rights reserved &reg; 2023 - Designed by NHÓM 6</p>
+    </footer>
 
-
-
+    <!-- Modal dang nhap -->
     <div class="ving hide" data-dismiss="modal">
         <div class="modal-inner">
             <div class="modal-header">
@@ -289,7 +291,7 @@
                         </label>
                         <br>
                         <label for="password">Mật khẩu <br>
-                            <input type="password" id="password" name="password" placeholder="Mật khẩu" required>
+                            <input type="password" id="user-password" name="password" placeholder="Mật khẩu" required>
                         </label>
                     </fieldset>
                     <input class="btn-dangnhap" type="submit" value="Đăng nhập">
@@ -311,8 +313,9 @@
         </div>
     </div>
 
-    <div id="dangky" class="dangky hide" data-dismiss="modal">
-        <div class="modal-inner">
+    <!-- Modal dang ky -->
+    <div id="dangky" class="dangky hide">
+        <div class="dangky-inner">
             <div class="modal-header">
                 <b>
                     <p>Đăng Ký</p>
@@ -320,38 +323,45 @@
                 <i class="fa-solid fa-xmark" id="closeSignUp"></i>
             </div>
             <div class="modal-body">
-                <div class="form1">
-                    <label for="username">
-                        Tên tài khoản
-                        <input type="text" placeholder="VD: truongving24" required>
-                    </label>
-                </div>
-                <div class="form2">
-                    <label for="email">
-                        Email
-                        <input type="email" placeholder="VD: truongving24@gmail.com" required>
-                    </label>
-                </div>
-                <div class="form3">
-                    <label for="password">
-                        Mật khẩu
-                        <input type="password" placeholder="Nhập mật khẩu của bạn" required>
-                    </label>
-                </div>
-                <div class="form4">
-                    <label for="password">
-                        Nhập lại mật khẩu
-                        <input type="password" placeholder="Xác nhận mật khẩu của bạn" required>
-                    </label>
-                </div>
-                <input class="btn-dangky" type="submit" value="Đăng ký">
+                <form action="#">
+                    <div class="form1">
+                        <label for="username">
+                            Tên tài khoản
+                            <input id="username" type="text" placeholder="VD: dangbaonhieu123" required>
+                        </label>
+                        <span class="error-message-form1 error"></span>
+                    </div>
+                    <div class="form2">
+                        <label for="email">
+                            Email
+                            <input id="email" type="email" placeholder="VD: noiitthoi@gmail.com" required>
+                        </label>
+                        <span class="error-message-form2 error"></span>
+                    </div>
+                    <div class="form3">
+                        <label for="password">
+                            Mật khẩu
+                            <input type="password" id="password" placeholder="Nhập mật khẩu của bạn" required>
+                        </label>
+                        <span class="error-message-form3 error"></span>
+                    </div>
+                    <div class="form4">
+                        <label for="password">
+                            Nhập lại mật khẩu
+                            <input type="password" id="check-password" placeholder="Xác nhận mật khẩu của bạn" required>
+                        </label>
+                        <span class="error-message-form4 error"></span>
+                    </div>
+                    <input class="btn-dangky" type="submit" value="Đăng ký">
+                    <p>Đã có tài khoản? <a id="btn-signin" href="">Đăng nhập</a>.</p>
+                </form>
             </div>
         </div>
     </div>
 </body>
 
 <!-- Link file javascript-->
-<script src="js/modal.js"></script>
+<script src="../TrangChu/js/modal.js"></script>
 
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
