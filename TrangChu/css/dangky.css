@@ -18,14 +18,14 @@
 
 .dangky-inner {
     width: 30%;
-    height: 78%;
+    height: 88%;
     position: relative;
     background: white;
     border-radius: 7px;
-    padding: 10px;
+    padding: 0;
     min-width: 350px;
-    min-height: 480px;
+    min-height: 530px;
     animation: showForm 0.3s linear;
-    margin: 5% auto auto auto;
+    margin: 30px auto auto auto;
 
 }

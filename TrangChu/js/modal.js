@@ -20,14 +20,15 @@ var dangky = document.querySelector('.dangky')
 var openSignUp = document.querySelector('#modal-dangky')
 var closeSignUp = document.querySelector('#closeSignUp')
 
-function toggleDangky(e) {
+function toggleDangky() {
     dangky.classList.toggle('hide')
 }
 
-openSignUp.addEventListener('click', function (e) {
-    togglebt()
+openSignUp.addEventListener('click', function () {
+    toggleModal()
     toggleDangky()
 })
+
 closeSignUp.addEventListener('click', toggleDangky)
 dangky.addEventListener('click', function (e) {
     if (e.target == e.currentTarget) {
@@ -157,4 +158,14 @@ btnCheckSigin.addEventListener('click', function () {
     } else {
         alert('Vui lòng nhập đầy đủ thông tin!')
     }
+})
+
+
+// Su kien nut dang nhap trong form dang ky
+var btnSignIn = document.querySelector('#btn-signin')
+
+console.log(btnSignIn)
+
+btnSignIn.addEventListener('click', function () {
+    alert('Vui lòng chọn đăng nhập ở trang chủ!')
 })
