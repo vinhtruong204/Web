@@ -55,6 +55,7 @@ body {
 
 .anhweb {
     display: flex;
+    margin-left: 10px;
 }
 
 .anhweb-img {

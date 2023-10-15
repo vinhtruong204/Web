@@ -1,65 +1,59 @@
-body{
+body {
     width: 100%;
     overflow-x: hidden;
     /* background-color: #4158D0;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
 }
 
-main
-{
+main {
     width: 100%;
     background-color: white;
 }
 
-article
-{
+article {
     margin: 75px 100px 0 0;
     display: block;
 }
 
-section
-{
+section {
     margin-left: 75px;
     margin-top: 50px;
 }
 
-.buttonXapXep
-{
+.buttonXapXep {
     margin-bottom: -50px;
 }
 
-article div.trang2
-{
+article div.trang2 {
     float: right;
 }
 
-section.advertisement
-{
+section.advertisement {
     margin-bottom: 50px;
 }
 
-.trang2
-{
-    background-color:white;
+.trang2 {
+    background-color: white;
     padding: 15px;
     margin: 10px;
     height: 550px;
     width: 250px;
     border-radius: 20px;
-    box-shadow: 0 1px 2px 0 rgba(60,64,67,.1), 0 2px 6px 2px rgba(60,64,67,.15);
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .1), 0 2px 6px 2px rgba(60, 64, 67, .15);
 }
 
 
 /* cac nut sap xep */
-h3{
+h3 {
     font-family: Arial;
     margin-bottom: 10px;
 }
-#gia_cao_thap{
+
+#gia_cao_thap {
     width: 120px;
     height: 29px;
     padding-top: 2px;
-    background-color:#e7e8eac8;
+    background-color: #e7e8eac8;
     border: 1.3px rgba(190, 183, 183, 0.918) solid;
     border-radius: 10px;
     justify-content: center;
@@ -70,15 +64,16 @@ h3{
     color: black;
     float: left;
 }
-#gia_cao_thap:hover{
+
+#gia_cao_thap:hover {
     cursor: pointer;
 }
 
-#gia_thap_cao{
+#gia_thap_cao {
     width: 120px;
     height: 29px;
     padding-top: 2px;
-    background-color:#e7e8eac8;
+    background-color: #e7e8eac8;
     border: 1.3px rgba(190, 183, 183, 0.918) solid;
     border-radius: 10px;
     justify-content: center;
@@ -91,14 +86,16 @@ h3{
     margin-left: 13px;
     margin-right: 13px;
 }
-#gia_thap_cao:hover{
+
+#gia_thap_cao:hover {
     cursor: pointer;
 }
-#noi_bat{
+
+#noi_bat {
     width: 90px;
     height: 29px;
     padding-top: 2px;
-    background-color:#e7e8eac8;
+    background-color: #e7e8eac8;
     border: 1.3px rgba(190, 183, 183, 0.918) solid;
     border-radius: 10px;
     justify-content: center;
@@ -108,19 +105,20 @@ h3{
     font-family: Bahnschrift SemiBold;
     color: black;
 }
-#noi_bat:hover{
+
+#noi_bat:hover {
     cursor: pointer;
 }
 
 /* cac nut xap xep */
 
 /* giam gia */
-.price_percent{
+.price_percent {
     background-image: url(../image/price_percent.png);
     width: 100px;
     height: 100px;
-    Background-size: 100%; 
-    Background-repeat: no-repeat; 
+    Background-size: 100%;
+    Background-repeat: no-repeat;
     position: absolute;
     margin-top: -15px;
     margin-left: -20px;
@@ -134,39 +132,55 @@ h3{
 
 /* giam gia */
 
-.contairner
-{
-   background-color: white;
-   display: block;
+.contairner {
+    background-color: white;
+    display: grid;
+    margin-top: 10px;
+    margin-left: 40px;
+    row-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
 }
 
-.parameterButton button
-{
+.parameterButton button {
     margin: 5px;
     background-color: white;
-    border-radius:5px;
+    border-radius: 5px;
     font-size: 10px;
 }
 
-.money p
-{
+.money p {
     display: inline-block;
     padding: 3px;
     margin: 5px;
 }
 
-p:first-child
-{
+p:first-child {
     color: red;
 }
 
-.underlineText
-{
+.underlineText {
     text-decoration: line-through;
 }
 
-div.information
-{
+div.information {
     padding: 5px;
     margin: 5px;
+}
+
+/* MŨI TÊN CUỐI TRANG  */
+.muiten {
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    position: relative;
+    left: 96%;
+
+}
+
+.sapxeptheo {
+    margin-left: 60px;
 }
