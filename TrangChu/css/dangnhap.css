@@ -101,10 +101,13 @@ input[type="submit"] {
 
 .fb {
     margin-right: 10px;
+    text-align: center;
 }
 
 .gg {
-    padding:10px 15px 10px 15px;
+    padding: 10px 0;
+    margin-left: 10px;
+    text-align: center;
 }
 
 /* Animation xuat hien form dang nhap */
@@ -119,4 +122,9 @@ input[type="submit"] {
         top: 0;
         opacity: 1;
     }
+}
+
+.dangnhap-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
