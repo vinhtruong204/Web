@@ -276,3 +276,11 @@ footer {
     left: 96%;
 
 }
+
+/* CHẠM VÀO SẢN PHẨM Ở TRANG CHỦ: */
+#bamvaotoi *:hover {
+    color: #3256c2;
+    /* animation-name: phatsang;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite; */
+}
