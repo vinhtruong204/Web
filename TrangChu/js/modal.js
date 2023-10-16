@@ -166,8 +166,6 @@ btnCheckSigin.addEventListener('click', function () {
 // Su kien nut dang nhap trong form dang ky
 var btnSignIn = document.querySelector('#btn-signin')
 
-console.log(btnSignIn)
-
 btnSignIn.addEventListener('click', function () {
     alert('Vui lòng chọn đăng nhập ở trang chủ!')
 })
