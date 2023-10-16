@@ -113,6 +113,8 @@ userPassword.addEventListener('blur', function () {
     let value = userPassword.value
     if (value.length == 0) {
         error3.innerHTML = 'Vui lòng nhập trường này!'
+    } else if (value.length < 8 || value.length > 16) {
+        error3.innerHTML = 'Mật khẩu phải có từ 8 đến 16 kí tự!'
     } else {
         error3.innerHTML = ''
         check3 = true
