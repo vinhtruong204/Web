@@ -55,7 +55,7 @@ body {
 
 .anhweb {
     display: flex;
-    margin-left: 10px;
+    margin-left: 50px;
 }
 
 .anhweb-img {
@@ -125,6 +125,8 @@ body {
 }
 
 .button>.giohang {
+    margin-right: -180px;
+    margin-left: -20px;
     color: rgb(14, 11, 11);
     font-weight: bold;
     background: rgb(131, 58, 180);
