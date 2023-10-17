@@ -155,10 +155,14 @@ btnCheckSigin.addEventListener('click', function () {
     let userName = formElement.querySelector('#user-name')
     let userPassword = formElement.querySelector('#user-password')
 
-    if (userName.value && userPassword.value) {
-        alert('Đăng nhập thành công!')
+    if (!userName.value.length && !userPassword.value.length) {
+        alert('Vui lòng nhập đủ thông tin!')
+    } else if (userName.value.length < 4) {
+        alert('Tên đăng nhập phải có tối thiểu 4 kí tự!')
+    } else if (userPassword.value.length > 16 || userPassword.value.length < 8) {
+        alert('Mật khẩu phải có từ 8 đến 16 kí tự!')
     } else {
-        alert('Vui lòng nhập đầy đủ thông tin!')
+        alert('Đăng nhập thành công!')
     }
 })
 
