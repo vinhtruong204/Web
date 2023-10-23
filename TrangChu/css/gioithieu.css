@@ -87,3 +87,61 @@ footer {
 	position: absolute;
 	right: 0;
 }
+
+/* RESPONSIVE TRANG GIOI THIEU */
+@media only screen and (max-width:1100px) {
+	.page-info {
+
+		font-size: 16px;
+		text-align: justify;
+		width: 96%;
+	}
+}
+
+@media only screen and (max-width:860px) {
+	.page-info {
+		margin-top: 60px;
+		margin-left: 15px;
+		font-size: 14px;
+		text-align: justify;
+		width: 96%;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.page-info {
+
+		padding-right: 15px;
+		font-size: 13px;
+		text-align: justify;
+		width: 93%;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	.page-info {
+
+		margin-right: 15px;
+		font-size: 12px;
+		text-align: left;
+		width: 91%;
+	}
+
+	footer {
+		font-size: 9px;
+	}
+}
+
+@media only screen and (max-width:320px) {
+	.page-info {
+
+		margin: 15px;
+		font-size: 11px;
+		text-align: left;
+		width: 91%;
+	}
+
+	footer {
+		font-size: 9px;
+	}
+}
