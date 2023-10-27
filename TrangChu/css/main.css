@@ -160,18 +160,15 @@ body {
 
 }
 
-/* FOOTER */
-footer {
-    color: white;
+.footer-trangchu {
+    position: relative !important;
+    bottom: 0 !important;
+    padding: 10px;
 
-    background-color: #1c1a1a;
-    padding: 2px;
-    display: block;
-    text-align: center;
-    clear: both;
+}
 
-    bottom: 0;
-
+.footer-trangchu p {
+    margin-bottom: 0;
 }
 
 /* TỪ KHÓA: */
